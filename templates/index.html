@@ -1,0 +1,7 @@
+{% extends 'base.html' %} 
+    {% block title %}TecDev@SHGC Food Ordering{% endblock %}
+{% block content %}
+    <h1>Welcome to Food Corner TecDev@SHGC</h1>
+        <p>Order your favorite dishes online</p>
+        <a href="{{ url_for('menu_page') }}" class="btn btn-primary">Explore Menu</a>
+{% endblock %}
